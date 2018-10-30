@@ -5,7 +5,7 @@ def line(array)
   else
     returnstring="The line is currently: "
     array.each_with_index do |item, index|
-      returnstring=returnstring+"#{index}. #{item} "
+      returnstring=returnstring+"#{index+1}. #{item} "
     end
     puts returnstring
   end
