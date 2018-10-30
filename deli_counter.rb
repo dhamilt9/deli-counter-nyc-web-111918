@@ -6,5 +6,7 @@ def line(array)
     returnstring="The line is currently: "
     array.each_with_index do |item, index|
       returnstring=returnstring+"#{index}. #{item} "
+    end
+    return returnstring
   end
 end
