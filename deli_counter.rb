@@ -7,6 +7,6 @@ def line(array)
     array.each_with_index do |item, index|
       returnstring=returnstring+"#{index}. #{item} "
     end
-    return returnstring
+    puts returnstring
   end
 end
